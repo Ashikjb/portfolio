@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f9;
+}
+
+.container {
+  display: flex;
+  width: 80%;
+  max-width: 1200px;
+  background-color: white;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  height: 80vh; /* Adjust height of the container */
+  flex-direction: row-reverse; /* Switch sidebar to the right */
+}
+
+.sidebar {
+  width: 25%;
+  background-color: #212121;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centering sidebar content vertically */
+  text-align: center;
+}
+
+.sidebar h1 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.sidebar h1 span {
+  color: #FF7A00;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  margin-top: 30px;
+}
+
+.sidebar ul li {
+  margin-bottom: 20px;
+}
+
+.sidebar ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.sidebar .social-links {
+  margin-top: 50px;
+}
+
+.sidebar .social-links a {
+  margin-right: 10px;
+}
+
+.main-content {
+  width: 75%;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Centering main content horizontally */
+}
+
+.intro-text {
+  text-align: center; /* Centering text */
+}
+
+.intro-text p {
+  font-size: 20px;
+  color: #888;
+}
+
+.intro-text h2 {
+  font-size: 40px;
+  margin: 10px 0;
+}
+
+.intro-text .highlight {
+  color: #FF7A00;
+}
+
+.intro-text button {
+  background-color: #FF7A00;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.intro-text button:hover {
+  background-color: #e56a00;
+}
+
+
+.profile-pic {
+  text-align: center; /* Center the profile picture */
+  margin-bottom: 20px; /* Space below the picture */
+  padding: 10px;
+}
+
+.profile-pic img {
+  width: 200px; /* Set width for the profile picture */
+  height: 300px; /* Maintain aspect ratio */
+  border-radius: 50%; /* Make it circular */
+}
